@@ -1,0 +1,6 @@
+framework module Pods_15Hafta_15HaftaUITests {
+  umbrella header "Pods-15Hafta-15HaftaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003819A1B91F455375633418033FFEA7 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */; };
+		04153A1A4F64DB87C7E47C3C17AB8BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		19B625DCBF2608036A726D4F6004AE41 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */; };
+		235C6BC0654C150374C6B533B9D33467 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */; };
+		3FD3DAAAF8CF73C2D83A77132BEB7E44 /* Pods-15HaftaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE9AF44AF8742D08B2D3B365A9EECFB /* Pods-15HaftaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDB49943F320BC1F504F6F6790448CC /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5602E9B85B82EF1EA80ABCF76D7CC6 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */; };
+		588EEA3FAF28A403ADD832A1496F412F /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */; };
+		58E35718C4C2B5EC425C2D38A1B13849 /* Pods-15HaftaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6355DB9F0C176EAA24A79B5E4F71CF28 /* Pods-15HaftaTests-dummy.m */; };
+		64810A75CC254B76D74E3F2586AD3B47 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */; };
+		6D544D905F27F156A77E329F71CF5E8E /* Pods-15Hafta-15HaftaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B6A3923CCEE42C5F371BD67ACCF96 /* Pods-15Hafta-15HaftaUITests-dummy.m */; };
+		87A87F853C95F0FC82239296ACBAAE02 /* Pods-15Hafta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24FF73B985DEDFF1E5B0D90A4B3FC2 /* Pods-15Hafta-dummy.m */; };
+		8C1404FF5DAB9A6D732547FFD3D497C5 /* Pods-15Hafta-15HaftaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8910A6691C24EEA53051D47A60C02D /* Pods-15Hafta-15HaftaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945D3D2BE68AAC195B48A684D0BD5538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9FC86B0DF30483BEC772265C38AA5440 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */; };
+		BF75F7C3CE5DF53FDC340EB541B30224 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */; };
+		C0D28AE66DC450E0C2C37EBFA66C47D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB85477271D24F4E0E9BBFD712868709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB7EBCCEF0833CEE6662D9658526CF0E /* Pods-15Hafta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B87C1F5E1EE2D37EA51AEB7DDCBC816 /* Pods-15Hafta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289CF1C8CED8D2699A3ACF7D3507174F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		8422F96DB9A845284ED6ED222095C3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC593CC764D3DE656CFD60EA4EAE19B;
+			remoteInfo = "Pods-15Hafta";
+		};
+		F3647DCCDCCD030F2BA6EA5463EF19E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088C8A0B0F906D181A73318D349ED253 /* Pods-15Hafta-15HaftaUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-15Hafta-15HaftaUITests"; path = Pods_15Hafta_15HaftaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		1B87C1F5E1EE2D37EA51AEB7DDCBC816 /* Pods-15Hafta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-15Hafta-umbrella.h"; sourceTree = "<group>"; };
+		1BF03D2133CA6AF04040A63DA34C3F57 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		1D5C0CEA2937E3677836D983748EC7AF /* Pods-15Hafta-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-15Hafta-frameworks.sh"; sourceTree = "<group>"; };
+		214DB16265ACBDD9CD53E1A4C03DF6DE /* Pods-15HaftaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-15HaftaTests.modulemap"; sourceTree = "<group>"; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		286AB222C68744A0DCCFE5CF8B9E3EC9 /* Pods-15HaftaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15HaftaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A506DAE6883F3CACE014387A11B3D20 /* Pods-15Hafta-15HaftaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-15Hafta-15HaftaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B64945E35F0E9D3B11CCF998B0BA3FE /* Pods-15HaftaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-15HaftaTests"; path = Pods_15HaftaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3414A04B4B7E449C935F027B1750A3A7 /* Pods-15Hafta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15Hafta.release.xcconfig"; sourceTree = "<group>"; };
+		3746F77F02F372857FF4358019551E2C /* Pods-15Hafta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15Hafta-acknowledgements.plist"; sourceTree = "<group>"; };
+		37C5A7A34282932064D3F3E64FD93EFF /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		3D7B6A3923CCEE42C5F371BD67ACCF96 /* Pods-15Hafta-15HaftaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-15Hafta-15HaftaUITests-dummy.m"; sourceTree = "<group>"; };
+		3FA04076569308B98179F182FB611D3C /* Pods-15Hafta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15Hafta-Info.plist"; sourceTree = "<group>"; };
+		3FCDE5798364FE566A064731C8513FF4 /* Pods-15HaftaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15HaftaTests.release.xcconfig"; sourceTree = "<group>"; };
+		40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		410460F777E8BE7D6597A8AC39B9CEBB /* Pods-15Hafta-15HaftaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15Hafta-15HaftaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4543C72BD0B0748CE439D43262FE6F23 /* Pods-15Hafta */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-15Hafta"; path = Pods_15Hafta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		5D24FF73B985DEDFF1E5B0D90A4B3FC2 /* Pods-15Hafta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-15Hafta-dummy.m"; sourceTree = "<group>"; };
+		6355DB9F0C176EAA24A79B5E4F71CF28 /* Pods-15HaftaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-15HaftaTests-dummy.m"; sourceTree = "<group>"; };
+		63589F4A0B52371DFDCACC05C346E591 /* Pods-15Hafta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-15Hafta.modulemap"; sourceTree = "<group>"; };
+		64AAD1F88CED86A3B86E7F3B1D4E7401 /* Pods-15Hafta-15HaftaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15Hafta-15HaftaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70F033FCFDA403C0D553916809316256 /* Pods-15Hafta-15HaftaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15Hafta-15HaftaUITests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		7CE9AF44AF8742D08B2D3B365A9EECFB /* Pods-15HaftaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-15HaftaTests-umbrella.h"; sourceTree = "<group>"; };
+		7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		8F48481FD34390B1B052EF8646289569 /* Pods-15Hafta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-15Hafta-acknowledgements.markdown"; sourceTree = "<group>"; };
+		920F2DC1DF38EB6D3D86949090684154 /* Pods-15HaftaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15HaftaTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9CBC935F4C2A70CF4707F891ED81BD /* Pods-15HaftaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-15HaftaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB8DAEC2DEF0EB540F7E1EB093CC69EE /* Pods-15Hafta-15HaftaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15Hafta-15HaftaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
+		C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		D14B8BA2E491A6DE3EEBB46DF34D90D4 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		D81DBD371207A833400DD7274C489F08 /* Pods-15Hafta-15HaftaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-15Hafta-15HaftaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		EB8910A6691C24EEA53051D47A60C02D /* Pods-15Hafta-15HaftaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-15Hafta-15HaftaUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC1EAB99075808BEE227705F8018DFA9 /* Pods-15Hafta-15HaftaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-15Hafta-15HaftaUITests.modulemap"; sourceTree = "<group>"; };
+		EF0902E14A8183336C75375ECE67F8BD /* Pods-15Hafta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-15Hafta.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4F99F397044D554C23F277DA38F3B5 /* Pods-15HaftaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-15HaftaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4532F5C7C0A7C008BBADFEBCBA7C5902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85477271D24F4E0E9BBFD712868709 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CC52DDE7A686486EFC9BD8E0BABABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945D3D2BE68AAC195B48A684D0BD5538 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EBD1D1C4BAB2CDA5481D389C9601FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04153A1A4F64DB87C7E47C3C17AB8BE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6307FD26FA70337EDD00DAF3154F9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D28AE66DC450E0C2C37EBFA66C47D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146CFFF562D6C2619075AF7EEECC7745 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8905ECBEC8BC8624B1518E7F7425E745 /* Pods-15Hafta */,
+				BFFB4EC1245058E7040A960CCB8F3E07 /* Pods-15Hafta-15HaftaUITests */,
+				E7EFA6AA6F372C4CB3E235E1F5214446 /* Pods-15HaftaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66F7B86CE8FCF1C7A66B95E3D03A19DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37C5A7A34282932064D3F3E64FD93EFF /* TinyConstraints.modulemap */,
+				D77A6777BC9B18328AE9BE85C5CF8D00 /* TinyConstraints-dummy.m */,
+				1BF03D2133CA6AF04040A63DA34C3F57 /* TinyConstraints-Info.plist */,
+				D14B8BA2E491A6DE3EEBB46DF34D90D4 /* TinyConstraints-prefix.pch */,
+				C29655FF0056FD25EC57F7909547C21E /* TinyConstraints-umbrella.h */,
+				E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */,
+				BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		6ABEEA7AE8070D3C9261B4662AC5A6F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA51ADCB66A7E8EED3331ECA1D6C58FC /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8905ECBEC8BC8624B1518E7F7425E745 /* Pods-15Hafta */ = {
+			isa = PBXGroup;
+			children = (
+				63589F4A0B52371DFDCACC05C346E591 /* Pods-15Hafta.modulemap */,
+				8F48481FD34390B1B052EF8646289569 /* Pods-15Hafta-acknowledgements.markdown */,
+				3746F77F02F372857FF4358019551E2C /* Pods-15Hafta-acknowledgements.plist */,
+				5D24FF73B985DEDFF1E5B0D90A4B3FC2 /* Pods-15Hafta-dummy.m */,
+				1D5C0CEA2937E3677836D983748EC7AF /* Pods-15Hafta-frameworks.sh */,
+				3FA04076569308B98179F182FB611D3C /* Pods-15Hafta-Info.plist */,
+				1B87C1F5E1EE2D37EA51AEB7DDCBC816 /* Pods-15Hafta-umbrella.h */,
+				EF0902E14A8183336C75375ECE67F8BD /* Pods-15Hafta.debug.xcconfig */,
+				3414A04B4B7E449C935F027B1750A3A7 /* Pods-15Hafta.release.xcconfig */,
+			);
+			name = "Pods-15Hafta";
+			path = "Target Support Files/Pods-15Hafta";
+			sourceTree = "<group>";
+		};
+		B76F7656594F37025E84AAA9A5CCDDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4543C72BD0B0748CE439D43262FE6F23 /* Pods-15Hafta */,
+				088C8A0B0F906D181A73318D349ED253 /* Pods-15Hafta-15HaftaUITests */,
+				2B64945E35F0E9D3B11CCF998B0BA3FE /* Pods-15HaftaTests */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFB4EC1245058E7040A960CCB8F3E07 /* Pods-15Hafta-15HaftaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1EAB99075808BEE227705F8018DFA9 /* Pods-15Hafta-15HaftaUITests.modulemap */,
+				2A506DAE6883F3CACE014387A11B3D20 /* Pods-15Hafta-15HaftaUITests-acknowledgements.markdown */,
+				410460F777E8BE7D6597A8AC39B9CEBB /* Pods-15Hafta-15HaftaUITests-acknowledgements.plist */,
+				3D7B6A3923CCEE42C5F371BD67ACCF96 /* Pods-15Hafta-15HaftaUITests-dummy.m */,
+				D81DBD371207A833400DD7274C489F08 /* Pods-15Hafta-15HaftaUITests-frameworks.sh */,
+				70F033FCFDA403C0D553916809316256 /* Pods-15Hafta-15HaftaUITests-Info.plist */,
+				EB8910A6691C24EEA53051D47A60C02D /* Pods-15Hafta-15HaftaUITests-umbrella.h */,
+				AB8DAEC2DEF0EB540F7E1EB093CC69EE /* Pods-15Hafta-15HaftaUITests.debug.xcconfig */,
+				64AAD1F88CED86A3B86E7F3B1D4E7401 /* Pods-15Hafta-15HaftaUITests.release.xcconfig */,
+			);
+			name = "Pods-15Hafta-15HaftaUITests";
+			path = "Target Support Files/Pods-15Hafta-15HaftaUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6ABEEA7AE8070D3C9261B4662AC5A6F2 /* Pods */,
+				B76F7656594F37025E84AAA9A5CCDDB2 /* Products */,
+				146CFFF562D6C2619075AF7EEECC7745 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7EFA6AA6F372C4CB3E235E1F5214446 /* Pods-15HaftaTests */ = {
+			isa = PBXGroup;
+			children = (
+				214DB16265ACBDD9CD53E1A4C03DF6DE /* Pods-15HaftaTests.modulemap */,
+				9D9CBC935F4C2A70CF4707F891ED81BD /* Pods-15HaftaTests-acknowledgements.markdown */,
+				FA4F99F397044D554C23F277DA38F3B5 /* Pods-15HaftaTests-acknowledgements.plist */,
+				6355DB9F0C176EAA24A79B5E4F71CF28 /* Pods-15HaftaTests-dummy.m */,
+				920F2DC1DF38EB6D3D86949090684154 /* Pods-15HaftaTests-Info.plist */,
+				7CE9AF44AF8742D08B2D3B365A9EECFB /* Pods-15HaftaTests-umbrella.h */,
+				286AB222C68744A0DCCFE5CF8B9E3EC9 /* Pods-15HaftaTests.debug.xcconfig */,
+				3FCDE5798364FE566A064731C8513FF4 /* Pods-15HaftaTests.release.xcconfig */,
+			);
+			name = "Pods-15HaftaTests";
+			path = "Target Support Files/Pods-15HaftaTests";
+			sourceTree = "<group>";
+		};
+		EA51ADCB66A7E8EED3331ECA1D6C58FC /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */,
+				40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */,
+				C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */,
+				13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */,
+				53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */,
+				C6C237044053DBA8B68378C6F80F10A1 /* TinyConstraints+superview.swift */,
+				78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */,
+				66F7B86CE8FCF1C7A66B95E3D03A19DD /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D7815A3B79BA916CE726EFF4302CAAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EBCCEF0833CEE6662D9658526CF0E /* Pods-15Hafta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBC6EEE7984AA4B1C7C33A182426D1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD3DAAAF8CF73C2D83A77132BEB7E44 /* Pods-15HaftaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC758A0C4E8F07560F9836B2EB0FD93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDB49943F320BC1F504F6F6790448CC /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C901BA35C8BE22453F16D3FAFBEE7637 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1404FF5DAB9A6D732547FFD3D497C5 /* Pods-15Hafta-15HaftaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82ADE11EFCEC2B3A42D3D0BAB73E091 /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				BAC758A0C4E8F07560F9836B2EB0FD93 /* Headers */,
+				DF92459D9FB5B70A4EA19E240046CFE6 /* Sources */,
+				99EBD1D1C4BAB2CDA5481D389C9601FD /* Frameworks */,
+				E8FDB45C583F6ED4A6E0F0B0B67108EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BC593CC764D3DE656CFD60EA4EAE19B /* Pods-15Hafta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C78F46F182E23DC704FB934593424 /* Build configuration list for PBXNativeTarget "Pods-15Hafta" */;
+			buildPhases = (
+				7D7815A3B79BA916CE726EFF4302CAAB /* Headers */,
+				4834744DC0E33A78562B6869AB444AF2 /* Sources */,
+				99CC52DDE7A686486EFC9BD8E0BABABC /* Frameworks */,
+				00E8FA04D7BCE3D1F049A6D1A80C6936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9993B30906FF90421EBC5000FB6F3E12 /* PBXTargetDependency */,
+			);
+			name = "Pods-15Hafta";
+			productName = Pods_15Hafta;
+			productReference = 4543C72BD0B0748CE439D43262FE6F23 /* Pods-15Hafta */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE66546DC65E490DE40CFFE018684944 /* Pods-15HaftaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBADD44CE99464033411622E59A34B4 /* Build configuration list for PBXNativeTarget "Pods-15HaftaTests" */;
+			buildPhases = (
+				8EBC6EEE7984AA4B1C7C33A182426D1A /* Headers */,
+				A0D9F8D33E74EDF7CA8F52932CDCAA12 /* Sources */,
+				4532F5C7C0A7C008BBADFEBCBA7C5902 /* Frameworks */,
+				F23E4B2972D54B27A1FF56BD212235FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360AD9D15CE34BC2F29155720E9DD6EF /* PBXTargetDependency */,
+			);
+			name = "Pods-15HaftaTests";
+			productName = Pods_15HaftaTests;
+			productReference = 2B64945E35F0E9D3B11CCF998B0BA3FE /* Pods-15HaftaTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9F13DB66860984152A18C83B0313AEA /* Pods-15Hafta-15HaftaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0E084AFD84FFDDD673B9EEF1BC2734 /* Build configuration list for PBXNativeTarget "Pods-15Hafta-15HaftaUITests" */;
+			buildPhases = (
+				C901BA35C8BE22453F16D3FAFBEE7637 /* Headers */,
+				D28A3F988A9B7EB9E625C03E38654A0D /* Sources */,
+				A6307FD26FA70337EDD00DAF3154F9D8 /* Frameworks */,
+				1D2CFD8C7978AA395568F2CB763C22B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00E99C9A90B62DEEF4DC8A2DDC7B68E /* PBXTargetDependency */,
+			);
+			name = "Pods-15Hafta-15HaftaUITests";
+			productName = Pods_15Hafta_15HaftaUITests;
+			productReference = 088C8A0B0F906D181A73318D349ED253 /* Pods-15Hafta-15HaftaUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B76F7656594F37025E84AAA9A5CCDDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC593CC764D3DE656CFD60EA4EAE19B /* Pods-15Hafta */,
+				B9F13DB66860984152A18C83B0313AEA /* Pods-15Hafta-15HaftaUITests */,
+				AE66546DC65E490DE40CFFE018684944 /* Pods-15HaftaTests */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E8FA04D7BCE3D1F049A6D1A80C6936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2CFD8C7978AA395568F2CB763C22B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FDB45C583F6ED4A6E0F0B0B67108EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23E4B2972D54B27A1FF56BD212235FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4834744DC0E33A78562B6869AB444AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A87F853C95F0FC82239296ACBAAE02 /* Pods-15Hafta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D9F8D33E74EDF7CA8F52932CDCAA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E35718C4C2B5EC425C2D38A1B13849 /* Pods-15HaftaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A3F988A9B7EB9E625C03E38654A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D544D905F27F156A77E329F71CF5E8E /* Pods-15Hafta-15HaftaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92459D9FB5B70A4EA19E240046CFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003819A1B91F455375633418033FFEA7 /* Abstraction.swift in Sources */,
+				19B625DCBF2608036A726D4F6004AE41 /* Constrainable.swift in Sources */,
+				588EEA3FAF28A403ADD832A1496F412F /* Constraints.swift in Sources */,
+				64810A75CC254B76D74E3F2586AD3B47 /* Stack.swift in Sources */,
+				9FC86B0DF30483BEC772265C38AA5440 /* TinyConstraints.swift in Sources */,
+				235C6BC0654C150374C6B533B9D33467 /* TinyConstraints+superview.swift in Sources */,
+				4E5602E9B85B82EF1EA80ABCF76D7CC6 /* TinyConstraints-dummy.m in Sources */,
+				BF75F7C3CE5DF53FDC340EB541B30224 /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360AD9D15CE34BC2F29155720E9DD6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-15Hafta";
+			target = 4BC593CC764D3DE656CFD60EA4EAE19B /* Pods-15Hafta */;
+			targetProxy = 8422F96DB9A845284ED6ED222095C3D6 /* PBXContainerItemProxy */;
+		};
+		9993B30906FF90421EBC5000FB6F3E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 289CF1C8CED8D2699A3ACF7D3507174F /* PBXContainerItemProxy */;
+		};
+		C00E99C9A90B62DEEF4DC8A2DDC7B68E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = F3647DCCDCCD030F2BA6EA5463EF19E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		111FC23052A433C309938881A8E00D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286AB222C68744A0DCCFE5CF8B9E3EC9 /* Pods-15HaftaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15HaftaTests/Pods-15HaftaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15HaftaTests/Pods-15HaftaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		39AA3510AAC3C360EAFBB670470DC44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8DAEC2DEF0EB540F7E1EB093CC69EE /* Pods-15Hafta-15HaftaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15Hafta-15HaftaUITests/Pods-15Hafta-15HaftaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15Hafta-15HaftaUITests/Pods-15Hafta-15HaftaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DF1FEAA69AED62BD03A87F1B4781EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0902E14A8183336C75375ECE67F8BD /* Pods-15Hafta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15Hafta/Pods-15Hafta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15Hafta/Pods-15Hafta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		501B1AB6BD6781E5C49BB481501E221B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE2FED9E5E9AC54EDA0E6C44E8B1755 /* TinyConstraints.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65178C32715FA3398AD9AA2715EC119F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3414A04B4B7E449C935F027B1750A3A7 /* Pods-15Hafta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15Hafta/Pods-15Hafta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15Hafta/Pods-15Hafta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		750230676C923D16D2BD871B573B1E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E27C1634FB36D16B17E42A64881B91 /* TinyConstraints.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F13EB9CC09D0689989C109C608FF89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AAD1F88CED86A3B86E7F3B1D4E7401 /* Pods-15Hafta-15HaftaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15Hafta-15HaftaUITests/Pods-15Hafta-15HaftaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15Hafta-15HaftaUITests/Pods-15Hafta-15HaftaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA90A98CF9947590CA2035E71FAD4296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCDE5798364FE566A064731C8513FF4 /* Pods-15HaftaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-15HaftaTests/Pods-15HaftaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-15HaftaTests/Pods-15HaftaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C78F46F182E23DC704FB934593424 /* Build configuration list for PBXNativeTarget "Pods-15Hafta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF1FEAA69AED62BD03A87F1B4781EDF /* Debug */,
+				65178C32715FA3398AD9AA2715EC119F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B0E084AFD84FFDDD673B9EEF1BC2734 /* Build configuration list for PBXNativeTarget "Pods-15Hafta-15HaftaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AA3510AAC3C360EAFBB670470DC44A /* Debug */,
+				9F13EB9CC09D0689989C109C608FF89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBADD44CE99464033411622E59A34B4 /* Build configuration list for PBXNativeTarget "Pods-15HaftaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111FC23052A433C309938881A8E00D57 /* Debug */,
+				BA90A98CF9947590CA2035E71FAD4296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82ADE11EFCEC2B3A42D3D0BAB73E091 /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750230676C923D16D2BD871B573B1E59 /* Debug */,
+				501B1AB6BD6781E5C49BB481501E221B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_15HaftaTests {
+  umbrella header "Pods-15HaftaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
